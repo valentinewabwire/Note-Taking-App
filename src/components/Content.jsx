@@ -8,7 +8,7 @@ function Content() {
   const searchText = useSelector((state) => state.searchText);
   if (searchText && searchText !== "") {
     filteredNotes = filteredNotes.filter((note) =>
-      note.note.toLowercase().includes.searchText.toLowercase()
+      note.note.toLowerCase().includes(searchText.toLowerCase())
     );
   } else {
     filteredNotes = items;

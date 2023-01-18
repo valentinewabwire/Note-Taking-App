@@ -7,6 +7,7 @@ function SearchBar() {
   const searchValue = useSelector((state) => state.setSearchText);
   const handleChange = (e) => {
     const text = e.target.value;
+    console.log(text);
     dispatch(setSearchText(text));
   };
   return (
