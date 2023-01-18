@@ -1,6 +1,29 @@
-## snaps
+## snaps Note taker
+
+This is a React App that allows users to input a new note, select a background color for the note, and add the note to a global store using the Redux library. The app also allows users to search through a list of notes by providing a text input and updating the search text in the global state using the redux store.
 
 ![image](https://user-images.githubusercontent.com/53892988/213190442-53cf0ce5-e5cb-460c-ae60-c2ab5b7154af.png)
+
+## Getting Started
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/note-input.git
+```
+
+2. Open the project in your preferred code editor
+3. Install the dependencies by running `npm install` or `yarn install` in the project's root directory
+4. Start the development server by running `npm start` or `yarn start`
+5. Open the app in a web browser at http://localhost:3000
+6. Enter a note in the text area and select a background color
+7. Click the "Add Note" button to add the note to the global store
+
+## Dependencies
+
+- React
+- Redux
+- nanoid
 
 # Getting Started with Create React App
 
